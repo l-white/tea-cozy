@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+header {
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    display: flex;
+    color: seashell;
+    padding: 5px;
+    
+    font-size: 22px;
+}
+
+
+
+#mission {
+    display: flex;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/ce/Tea_herbal.jpg?20170209200750");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    /*max-width: 310px;*/
+    justify-content: center;
+}
+
+.content {
+    max-width: 562px;
+    /*background-color: black;*/
+    max-height: 85px;
+    color: black;
+    background-color: seashell;
+}
+
+.content h2 {
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
+
+#store {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.flex-container.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    max-width: 310px;
+}
+
+.item img {
+    width: 300px;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-content: center;
+}
+
+footer {
+    
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: seashell;
+    color: black;
+    margin: -7px;
+    margin-top: 15px;
+}
+
+footer p {
+    font-size: 12px;
+}
