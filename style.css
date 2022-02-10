@@ -83,6 +83,24 @@ nav a {
     align-content: center;
 }
 
+#locations {
+    /*background-image: url("https://cdn.pixabay.com/photo/2016/01/10/21/05/tea-1132529_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: sienna;
+    margin-top: 15px;
+    padding-top: 2px;
+    margin-bottom: -15px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.flex-container.locations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 footer {
     
     display: flex;
@@ -97,4 +115,5 @@ footer {
 
 footer p {
     font-size: 12px;
+    flex-wrap: wrap;
 }
